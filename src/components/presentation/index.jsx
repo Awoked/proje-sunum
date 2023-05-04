@@ -173,8 +173,8 @@ const Presentation = () => {
 
         <>
 
-            <div className='flex flex-row h-screen bg-[#242424] overflow-hidden'>
-                <aside className='side-bar shadow-lg h-screen w-24 overflow-y-auto overflow-x-hidden bg-violet-900 absolute left-0 top-0 scroll'>
+            <div className='flex flex-row h-[100svh] bg-[#242424] overflow-hidden'>
+                <aside className='side-bar shadow-lg h-[100svh] w-24 overflow-y-auto overflow-x-hidden bg-violet-900 absolute left-0 top-0 scroll'>
                     <nav className='flex flex-col align-center  h-full w-full '>
                         <ul className='slide-list p-3 flex flex-col align-center gap-y-4 font-bold text-white text-center text-lg'>
                             {
